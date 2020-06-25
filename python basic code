@@ -1,0 +1,137 @@
+num=[1,2,3,4]
+num
+num.append(5)
+
+print(num)
+
+x=num.pop()
+
+print(num)
+
+for x in num:
+    print(x)
+
+num1=[65,25,35]
+ 
+for y in num1:
+     print(y) 
+    
+     print("Done")
+
+sal = {"jane":15, "rod":30, "jense":20}
+ print(sal)
+
+sal.get("mano", 25)
+ print(sal)
+
+sal.append("mano",25)
+
+sal["andy"]=25
+
+print(sal)
+
+del.sal["andy"]
+print(sal)
+
+del.sal["andy"]
+
+del.sal["mano"]
+
+del.sal[0]
+ 
+x = 25
+
+if x < 10:
+    print("x is lessthan 20")
+    if x < 15:
+        print("x is lessthan 15")
+    else:
+        print("x is morethan 15")
+        
+else:
+    print("x is morethan 20")
+        
+a = 1
+while a<5:
+    print(a)
+    a += 5
+
+for x in range(0,10):
+    
+    print(x, end =",")
+    
+nums =[x for x in range(0,10)]
+for x in nums:
+    if (x==4): continue
+    print(x, end=",")
+print("done")
+
+a = 10
+while a<0:
+    print (a)
+    a+=1
+    
+    
+a = 8
+while a <0:
+    print(a)
+    a += 1
+    
+nums =[x for x in range(0,10)]
+index = 0
+while index < len(nums):
+    print(nums[index])
+    index +=1
+    
+
+def add(a,b):
+    sum = a+b
+    return sum
+
+def multiply(x,y):
+    r=lambda x,y: x*y
+    r(12,3)
+
+def myfunc(n):
+    return lambda  a : a + n
+mysum = myfunc(3)
+print(mysum(10))
+        
+multiply = lambda x,y : x*y
+print(multiply(25,15))
+
+def f(x):
+    return 3*x+ 1
+    f(2)
+
+def e(y):
+    return 3+y* 5
+    e(3)
+
+def m(n):
+    return 3-n*5
+m(6)
+
+a = lambda x : 3*x +4
+a(1)
+    
+
+c = lambda  y : 6*y +6
+c(5)
+
+ 
+division = lambda a,b : a/b
+print(division(10,5))
+
+def (a, b):
+    return a+b
+
+import os
+os.remove("https://buildmedia.readthedocs.org/media/pdf/python-practice-book/latest/python-practice-book.pdf")
+
+f = ("sample.text", 'x')
+f.close()
+
+def square(x):
+    return x*x
+square(5)
